@@ -391,8 +391,12 @@ from .frontendmasters import (
     FrontendMastersLessonIE,
     FrontendMastersCourseIE
 )
-from .funimation import FunimationIE
+from .funimation import (
+    FunimationIE,
+    FunimationShowPlaylistIE
+)
 from .funk import FunkIE
+from .funnyordie import FunnyOrDieIE
 from .fusion import FusionIE
 from .fxnetworks import FXNetworksIE
 from .gaia import GaiaIE
